@@ -2,13 +2,13 @@
 # /etc/init.d/delay.sh 
 
 ### BEGIN INIT INFO
-# Provides:          audio delay
+# Provides:          random audio delay
 # Required-Start:    $remote_fs $syslog
 # Required-Stop:     $remote_fs $syslog
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
 # Short-Description: Simple script to start a program at boot
-# Description:       A simple script from www.stuffaboutcode.com which will start / stop a program a boot / shutdown.
+# Description:       A simple script that will start / stop a program a boot / shutdown.
 ### END INIT INFO
 
 # If you want a command to always run, put it here
