@@ -3,7 +3,7 @@ A random 0 - 3 second audio delay for the Raspberry Pi Zero. Used for practicing
 
 All scripts need chmod +x to make them executable.
 
-The delay.sh script needs to be moved to /etc/init.d/
+The delay.sh script needs to be moved to /etc/init.d/. To make it run at boot, use "sudo update-rc.d delay.sh defaults".
 
 The scripts assume they will be store in /home/pi. You can put them anywhere you want, but you'll need to update the script with the correct path.
 
