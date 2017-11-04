@@ -11,7 +11,7 @@
 #	ahead of a video stream, like listening to the radio for a sports game while
 #	watching it on TV.
 #
-#	Usage: perl audiodelay.pl --number of seconds for delay--
+#	Usage: perl audiodelay_set.pl --number of seconds for delay--
 #
 #	Usage Options.
 #	
