@@ -8,3 +8,5 @@ The delay.sh script needs to be moved to /etc/init.d/. To make it run at boot, u
 The scripts assume they will be store in /home/pi. You can put them anywhere you want, but you'll need to update the script with the correct path.
 
 The button script assumes GPIO pin 18 will be used. 
+
+The audiodelay_set.pl file is designed for use by someone that wants to sync up audio from an external source with video. Great for when you want to watch sports on TV, but listed to the radio broadcast and have them sync up. This is the only script needed for use case.
