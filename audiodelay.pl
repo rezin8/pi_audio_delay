@@ -89,13 +89,7 @@ sub output_sub {
     }
 }
 
-# run in a loop for ever until the program is exited. 
-#print "Enter CTRL-C to end playback\n";
-#while (1){
 sleep(8);
-#    yield();
-
-#};
 
 close (INPUT);
 close (OUTPUT);
